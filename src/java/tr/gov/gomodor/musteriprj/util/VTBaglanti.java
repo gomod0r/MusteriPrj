@@ -18,7 +18,7 @@ public class VTBaglanti {
     
     public static void baglantiKapat(Connection p_conn) throws SQLException{
         
-        System.out.println("Veritabanı bağlantısı kapatılıyor..");
+        //System.out.println("Veritabanı bağlantısı kapatılıyor..");
         p_conn.close();
     }
 }
